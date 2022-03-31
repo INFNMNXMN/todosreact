@@ -1,5 +1,5 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
-import { reduceTodos, todosMiddleware } from "./todos";
+import { reduceTodos, todosMiddleware } from "./Todos";
 
 const reducer = combineReducers({ todos: reduceTodos });
 

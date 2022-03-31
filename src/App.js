@@ -1,5 +1,5 @@
 import "./App.css";
-import { requestTodos, Todos } from "./todos";
+import { requestTodos, Todos } from "./Todos";
 import { store } from "./store";
 import { Provider } from "react-redux";
 
